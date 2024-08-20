@@ -56,7 +56,7 @@ main{
     color: #E0E0E0;
     font-family: lato;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    flex: 1 0;
+    flex: 1 1;
 }
 #next-question{
     background-color:transparent ;
@@ -78,6 +78,7 @@ main{
 #mode-div {
     align-self: flex-end;
     height:3rem;
+    flex-basis: 3rem;
 }
 #mode-button{
     background-color: transparent;
@@ -174,7 +175,6 @@ test
     footer{
         margin:0.3rem;
         font-size: 0.8rem;
-
     }
     #container{background-color: transparent;}
     .light-container{background-color: transparent !important;}
