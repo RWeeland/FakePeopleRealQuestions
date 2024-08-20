@@ -74,7 +74,7 @@ main{
     background-color: transparent;
     border: transparent 0.1rem solid;
     border-radius: 1rem;
-    margin:2rem 0.5rem 0 0;
+    
     
 }
 
@@ -169,7 +169,7 @@ test
     #container{background-color: transparent;}
     .light-container{background-color: transparent !important;}
     body{
-        height: 98svh;
+        height: 95svh;
     }
 
   }
