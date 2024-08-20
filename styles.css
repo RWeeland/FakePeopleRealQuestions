@@ -171,11 +171,6 @@ test
 */
 
 @media only screen and (max-width: 600px) {
-    #mode-div{
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-    }
     footer{
         margin:0.3rem;
         font-size: 0.8rem;
@@ -183,6 +178,7 @@ test
     }
     #container{background-color: transparent;}
     .light-container{background-color: transparent !important;}
+
     body{
         height: 95svh;
     }
