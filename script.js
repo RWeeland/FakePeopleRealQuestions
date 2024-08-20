@@ -110,7 +110,7 @@ const questions = [
     "What needs to be addressed within myself in order to find love?"
 ];
 
-const pickQuestion = ()=> Math.floor(Math.random() * questions.length +1);
+const pickQuestion = ()=> Math.floor(Math.random() * questions.length);
 
 const letLight = ()=> {
     if(light){
