@@ -169,7 +169,7 @@ test
     #container{background-color: transparent;}
     .light-container{background-color: transparent !important;}
     body{
-        height: 100svh;
+        height: 98svh;
     }
 
   }
