@@ -100,7 +100,7 @@ main{
 }
 
 .light-container{
-    background-color:#FFFFFF !important;
+     background-color:#FFFFFF !important; 
     color:#333333 !important;
 }
 
@@ -163,7 +163,7 @@ test
         font-size: 0.8rem;
 
     }
-    #next-question{
-        margin-bottom: 5rem;
-    }
+    #container{background-color: transparent;}
+    .light-container{background-color: transparent !important;}
+
   }
