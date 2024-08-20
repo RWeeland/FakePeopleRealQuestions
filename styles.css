@@ -185,10 +185,10 @@ test
     }
 
     #container{
-        height:80svh;
+        height:75svh;
     }
     #mode-div{
-        margin: 2rem;
+        margin-top: 2rem;
     }
     #next-question:active{
         background-color:#BB86FC ;
