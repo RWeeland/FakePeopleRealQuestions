@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+a{
+    color:#555555;
+}
+
+
+
   .lato-regular {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -129,10 +135,14 @@ main{
 
 }
 
+.light-footer a{
+    color:#B0B0B0
+}
+
 footer{
     color: #555555;
     font-family: Lato;
-    height: 2rem;
+    height: 0rem;
     align-self: flex-start;
 }
 footer p{
