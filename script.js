@@ -139,7 +139,7 @@ modeButton.addEventListener("click", ()=>{
 
 const generateQuestion = () =>{
     const newQuestion = questions[pickQuestion()];
-    fakePerson.src = "https://www.thispersondoesnotexist.com/" + new Date().getTime();
+    fakePerson.src = "https://www.thispersondoesnotexist.com/";
     setTimeout(()=>{realQuestion.innerText= newQuestion;}, "200" )
    
 
