@@ -145,6 +145,7 @@ footer{
     font-family: Lato;
     height: 0rem;
     align-self: flex-start;
+    margin: 0.2rem;
 }
 footer p{
     padding-left: 1rem;
