@@ -188,7 +188,9 @@ test
         max-height:75svh;
     }
     #mode-div{
-        margin-top: 2rem;
+        position:fixed;
+        top:1rem;
+        right:1rem;
     }
     #next-question:active{
         background-color:#BB86FC ;
