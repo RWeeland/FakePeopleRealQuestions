@@ -14,7 +14,10 @@
     font-style: normal;
   }
   
-
+#image-holder{
+    width: 20rem;
+    height:20rem;
+}
 body{
     background-color:#121212 ;
 }
@@ -154,5 +157,10 @@ test
         position: absolute;
         top: 1rem;
         right: 1rem;
+    }
+    footer{
+        margin:0.3rem;
+        font-size: 0.8rem;
+
     }
   }
