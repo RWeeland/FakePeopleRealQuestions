@@ -1,0 +1,128 @@
+
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color:#121212 ;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#fake-person{
+    width:20rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 1rem 4px rgba(0, 0, 0, 0.2);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5rem;
+    border: solid transparent 0.1rem;
+    padding: 2rem;
+    border-radius: 3%;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    font-family: lato;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#next-question{
+    background-color:transparent ;
+    color: #FFFFFF;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 0.1rem #BB86FC solid;
+}
+
+#next-question:hover{
+    background-color:#BB86FC ;
+    color:#121212;
+}
+
+#mode-div{
+    position: absolute;
+    top:2rem;
+    right: 3rem;
+}
+#mode-button{
+    background-color: transparent;
+    border: transparent 0.1rem solid;
+    border-radius: 1rem;
+}
+
+#mode-button:hover{
+    background-color: #E0E0E0;
+}
+#mode-button img{
+    padding-top: 0.1rem;
+    height: 3rem;
+    
+
+}
+#question-div{
+    height: 9rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+/* light Mode */
+
+.light-body{
+    background-color:#F5F5F5 !important;
+}
+
+.light-container{
+    background-color:#FFFFFF !important;
+    color:#333333 !important;
+}
+
+.light-button{
+    border: 0.1rem #6200EE solid !important;
+    color:#121212 !important;
+}
+
+.light-button:hover{
+    background-color: #6200EE !important;
+    color:#FFFFFF !important;
+}
+
+/*
+### **Dark Mode:**
+- `#121212` - **Background**
+- `#1E1E1E` - **Element Background**
+- `#E0E0E0` - **Text**
+- `#BB86FC` - **Button Background**
+- `#FFFFFF` - **Button Text**
+- `#333333` - **Border**
+
+### **Light Mode:**
+- `#F5F5F5` - **Background**
+- `#FFFFFF` - **Element Background**
+- `#333333` - **Text**
+- `#6200EE` - **Button Background**
+- `#FFFFFF` - **Button Text**
+- `#E0E0E0` - **Border**
+test
+*/
