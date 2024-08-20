@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 
   .lato-regular {
     font-family: "Lato", sans-serif;
@@ -83,6 +85,7 @@ main{
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 1rem;
     
 }
 
@@ -108,6 +111,25 @@ main{
     color:#FFFFFF !important;
 }
 
+.light-footer{
+    color:#B0B0B0 !important;
+
+}
+
+footer{
+    color: #555555;
+    position: absolute;
+    bottom:0;
+    font-family: Lato;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+footer p{
+    padding-left: 1rem;
+}
+
+
+
 /*
 ### **Dark Mode:**
 - `#121212` - **Background**
@@ -126,3 +148,11 @@ main{
 - `#E0E0E0` - **Border**
 test
 */
+
+@media only screen and (max-width: 600px) {
+    #mode-div{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+  }

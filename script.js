@@ -5,6 +5,7 @@ const realQuestion = document.getElementById("real-question");
 const nextQuestion = document.getElementById("next-question");
 const modeButton = document.getElementById("mode-button");
 const modeImg = document.getElementById("mode-img")
+const footer = document.querySelector("footer")
 let light = false ;
 
 const questions = [
@@ -117,10 +118,12 @@ const letLight = ()=> {
     container.classList.add("light-container")
     nextQuestion.classList.add("light-button");
     modeImg.src = "./Media/dark_mode_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+    footer.classList.add("light-footer")
     } else{
         body.classList.remove("light-body");
     container.classList.remove("light-container")
     nextQuestion.classList.remove("light-button");
+    footer.classList.remove("light-footer")
     }
 
 }
