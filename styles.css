@@ -24,7 +24,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 98vh;
 }
 
 main{
@@ -68,7 +68,6 @@ main{
 
 #mode-div {
     align-self: flex-end;
-    margin-right: 1rem;
     height:3rem;
 }
 #mode-button{
@@ -170,7 +169,6 @@ test
     #container{background-color: transparent;}
     .light-container{background-color: transparent !important;}
     body{
-        height: 100vh;
         height: 100svh;
     }
 
