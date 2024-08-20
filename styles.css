@@ -181,7 +181,11 @@ test
     .light-container{background-color: transparent !important;}
 
     body{
-        height: 95svh;
+        height: 90svh;
+    }
+
+    #container{
+        height:70svh;
     }
     #next-question:active{
         background-color:#BB86FC ;
