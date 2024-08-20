@@ -124,6 +124,7 @@ const letLight = ()=> {
     container.classList.remove("light-container")
     nextQuestion.classList.remove("light-button");
     footer.classList.remove("light-footer")
+    modeImg.src = "./Media/light_mode_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
     }
 
 }
