@@ -61,10 +61,10 @@ main{
 #next-question{
     background-color:transparent ;
     color: #FFFFFF;
-    width: 10rem;
-    height: 2rem;
+    width: 14rem;
+    height: 2.6rem;
     border-radius: 0.5rem;
-    border: 0.1rem #BB86FC solid;
+    border: 0.2rem #BB86FC solid;
 }
 
 
@@ -183,6 +183,9 @@ test
     body{
         height: 90svh;
     }
+    .light-body{
+        background-color: #FFFFFF !important ;
+    }
 
     #container{
         height:75svh;
@@ -205,5 +208,10 @@ test
     }
     #mode-button:hover{
         background-color: transparent;
+    }
+
+    #next-question{
+        width: 16rem;
+        height: 3rem;
     }
   }
